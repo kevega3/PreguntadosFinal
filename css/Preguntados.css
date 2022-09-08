@@ -1,0 +1,86 @@
+.ContenedorPreguntados{
+background: white;
+    width: 100%;
+    height: 98vh;
+}
+
+
+
+.contenedorLista{
+    border: none;
+    padding: 15px 20px 15px 60px; 
+    position: relative;
+    background: #e6e4e4;
+    margin-top: 5%;
+    transition: .4s;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 15% 0% 0% 15% ;
+}
+
+.CuadritoMelo2{
+    position: absolute;
+    border-radius: 19%;
+    border: none;
+    height: 100%;
+    width: 15%;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+
+.CuadritoMelo{
+    position: absolute;
+    height: 100%;
+    
+    width: 10px;
+    top: 0%;
+    right: 0%;
+}
+
+
+
+
+
+
+
+
+.ContenedorVideosInvisbles{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+.HeaderPreguntados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 20px 0px ; */
+    height: 60px;
+
+
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#27363c+0,3a3a3a+100 */
+background: rgb(10, 10, 128);
+    
+}
+.HeaderPreguntados h4{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.opacado{
+    opacity: 0.5;
+}

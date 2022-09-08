@@ -1,0 +1,40 @@
+.contenedorBocaADA{
+  position: absolute;
+    left: 33%;
+    top: 15.5%;
+    /* background: black; */
+}
+#sprite-image {
+  height: 57px;
+  width: 67px; 
+  background: url("../img/BocaADa/ADABocas.png") 0px 0px;
+  /* background-size: 500px 500px; */
+  animation: play 1.3s steps(8) infinite;
+  }
+
+  @keyframes play {
+    100% {
+      background-position: -1472px;
+    }
+  }
+
+.bocaAda{
+  /* height: 47px;
+  width: 57px; */
+  animation: bounce-down 4.2s linear infinite;
+}
+
+  /* arriba abajo */
+
+@-webkit-keyframes bounce-down {
+    25% {
+         -webkit-transform: translateY(5px);
+    }
+    50%, 100% {
+         -webkit-transform: translateY(2px);
+    }
+    75% {
+         -webkit-transform: translateY(5px);
+    }
+ }
+ 

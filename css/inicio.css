@@ -1,0 +1,70 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    z-index: -1;
+    
+}
+/* .contaiderBody{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/v617batch2-bb-01-technology.jpg");
+    width: auto;
+    z-index: -1;
+} */
+
+
+.contenedorVacios{
+    height: 90px;
+    width: 100%;
+}
+
+.contendorGeneral{
+    position: absolute;
+}
+.TextoADa{
+    background: white;
+    position: relative;
+    
+}
+.ADa{
+    background-image: url("../img/fondo-15.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CadaDia{
+    padding-top: 5%;
+    padding-left: 10%;
+    font-weight: bold;
+}
+.MasSERCA{
+    color: #C71485;
+    font-weight: bold;
+    padding-left: 40%;
+}
+.IntroADA{
+    margin: 20px 40px 20px 20px;
+    padding-right: 8%;
+
+}
+.Contbtn-Ada{
+    position: relative;
+
+}
+
+#particles-js{
+	height: 99vh;
+	position: relative;
+    padding: 0;
+    margin: 0;
+}
+

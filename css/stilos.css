@@ -1,0 +1,209 @@
+body,html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/fondo-15.png");
+    z-index: -1;
+}
+.Stear{
+    padding: 0px;
+    margin: 0px;
+}
+.contenedorGeneral {
+    width: 100%;
+    height: 97.8vh;
+    
+}
+
+.ColumnaADAContenedor {
+    /* background-image: url("../img/fondo-15.png"); */
+    height: 97.8vh;
+    
+    position: relative;
+    width: 100%;
+}
+
+.ColumnBtonsContenedor {
+    
+    /* background-image: url("../img/fondo-15blan.png"); */
+    height: 97.8vh;
+    
+    
+}
+
+.contenedorLinea{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contenedorADA{
+    /* padding-top: 2%; */
+    
+    z-index: 10;
+}
+.ImgADA{
+    z-index: 90;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.linea{
+width: 10%;
+height: 19vh;
+background: white;
+}
+
+.colorAzul {
+background: #17539c ; 
+height: 1vw;
+}
+
+.colorRosado {
+    background: #C71485 ;
+    height: 1vw;
+}
+
+.colorVerde {
+    background: #76C35E ;
+    height: 1vw;
+}
+
+.BtonCerrar{
+    background: transparent;
+    border-radius: 100%;
+    padding: 3px 7px;
+    color: white;
+    border: 2px solid white;
+}
+.ContenedorFooder{
+    z-index: 99;
+}
+
+
+
+.ContenedorBtn{
+    padding: 20px;
+    margin: 20px;
+    background: black;
+}
+
+
+
+#flecha {
+    position: relative;
+}
+
+
+#flecha {
+    -moz-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+}
+#boton:hover #flecha {
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(180deg);
+}
+.invisiblecont{
+    display: none;
+}
+
+.viñeta{
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+}
+.ColumnBtonsContenedors col{
+    padding-right: calc(var(--bs-gutter-x) * .10);
+    padding-left: calc(var(--bs-gutter-x) * .10);
+    
+}
+.bg-AzulMorado{
+    background: #31178f;
+}
+
+.quit{
+    display: none;
+}
+
+.Texto1{
+    z-index: 10;
+    position: absolute;
+    top: 9%;
+    left: 48%;
+    color: black;
+    font-weight: bold;
+}
+.Texto2{
+    z-index: 10;
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    color: black;
+    font-weight: bold;
+}
+.Texto3{
+    z-index: 10;
+    position: absolute;
+    z-index: 10;
+    top: 24%;
+    left: 28%;
+    color: black;
+    font-weight: bold;
+    padding: 0px 150px;
+    font-size: 20px;
+}
+
+.Titulo2{
+    z-index: 10;
+    position: absolute;
+    top: 11%;
+    left: 43%;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+.Texto2 a{
+    text-decoration: none;
+}
+.Texto label{
+    
+}
+.col1Text{
+    left: 35%;
+}
+.col2Text{
+    left: 55%;
+}
+.col3Text{
+    
+    left: 75%;
+}
+
+
+.Texto2  span {
+    font-size: 20px;
+}
+.Texto2 label {
+    font-size: 20px;
+}
+
+.numberText{
+    color: #17539c;
+}
+
+
+.web{
+    color: #17539c;
+}
+.ContenedorVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

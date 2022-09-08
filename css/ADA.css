@@ -1,0 +1,68 @@
+.ContenedorADAYoutube{
+    width: 100%;
+    height: 98vh;
+    position: relative;
+}
+
+.AdaParadaDerecha{
+    position: absolute;
+    bottom: 0;
+    right:30%;
+    left: 30%;
+}
+
+.Logo15AñosVideos{
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+
+.flechaDerechaVideo{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 400%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Whatsss */
+.ContenedorADAWhast{
+    width: 100%;
+    height: 98vh;
+    position: relative;
+}
+
+.AdaParadaIzquierda{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.LogoCumpleañosWhats{
+    position: absolute;
+    bottom: 0;
+    /* left: 3%; */
+    
+}
+
+.flechaIzqWhats{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    font-size: 400%;
+    cursor: pointer;
+}

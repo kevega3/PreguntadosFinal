@@ -1,0 +1,53 @@
+
+
+.contenedorBtn{
+  position: absolute;
+
+  display: grid;
+  place-content: center;
+}
+
+.btnVideo{
+  position: relative;
+  display: block;
+  color: #C71485;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+  border: 2px solid #C71485;
+  padding: 12px 15px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  z-index: 99;
+  border-radius: 10px;
+}
+.btnVideo::before{
+  background: #C71485;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1; 
+  z-index: -1; 
+  transition: all 0.6s ease;
+} 
+.btnVideo:hover{
+  
+  color: white;
+}
+
+.btnefecto3::before{
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+.btnefecto3:hover::before{
+  height: 380%;
+} 
+.btonSalir{
+padding-right: 5px;
+}
+
+

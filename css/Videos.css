@@ -1,0 +1,358 @@
+.ColumnVideosContenedors {
+
+  overflow: auto;
+  direction: rtl;
+  padding: 0;
+  margin-right: 10px;
+  height: 89%;
+
+
+
+
+
+
+
+
+
+  
+}
+
+.ColumnVideosContenedors1 {
+
+
+/* background: rgb(28,27,135);
+background: -moz-linear-gradient(-45deg,  rgba(28,27,135,1) 0%, rgba(22,22,22,1) 29%); 
+background: -webkit-linear-gradient(-45deg,  rgba(28,27,135,1) 0%,rgba(22,22,22,1) 29%); 
+background: linear-gradient(135deg,  rgba(28,27,135,1) 0%,rgba(22,22,22,1) 29%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1b87', endColorstr='#161616',GradientType=1 );  */
+
+background: #4D555C;
+
+  width: 100%;
+  height: 98vh;
+  position: relative;
+  /* display: flex;  
+  justify-content: center;
+  align-items: center; */
+}
+
+.Videos {
+  width: auto;
+  height: auto;
+  direction: ltr;
+  padding-top: 3%;
+  /* margin-left: 5%; */
+  /* display: grid;
+  align-items: center;
+  justify-content: center; */
+  padding-left: 10px;
+  
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #868686;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4e4e4e;
+}
+.cuadro{
+  text-decoration: none;
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  background: rgb(106, 106, 121);
+  top: 0;
+  right: 0;
+  border-end-start-radius: 50%;
+  border-bottom-left-radius:  50%;
+  
+}
+
+
+
+
+
+/* .headerVideos {
+  display: grid;
+  background: #333333;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+} */
+
+.TituloYoutubeCAC {
+  padding-top: 4%;
+  padding-left: 4%;
+  color: white;
+}
+
+.iconoYoutube {
+  color: red;
+  font-size: 300%;
+}
+
+.YoutubeCAC {
+  display: -webkit-box;
+}
+
+
+.VideosCont {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 3%;
+  -webkit-box-shadow: 0px 0px 17px -5px #000000; 
+  box-shadow: 0px 0px 17px -5px #000000;
+}
+
+.iconoplay {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+
+.iconoplay i {
+  font-size: 450%;
+  z-index: 20;
+}
+
+.blancoYoutube {
+  color: white;
+}
+
+.titulosVideos h6 {
+  font-weight: bold;
+}
+
+.titulosVideos {
+  z-index: 20;
+}
+
+.titulosVideos h7 {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+.trueba {
+  border-top-left-radius: 30px;
+
+  height: 80%;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.truebaAB {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  height: 80%;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+}
+
+.ContenedorVideo{
+  padding: 0;
+  margin: 0;
+}
+
+.resetPadding{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+/* scrollLateral */
+#myWorkContent {
+  width: auto;
+  height: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.contenedorVideoCart {
+  display: inline-block;
+  margin: 2% 2%;
+  
+}
+
+
+
+.demo02 {
+  text-decoration: none;
+} 
+
+
+.pl-about{
+  color: rgb(172, 172, 172);
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.bodyCartVideo p{
+  font-size: 70%;
+}
+
+.contenedorVideosSpoty{
+  width: 93%;
+  position: absolute;
+} 
+
+@media screen and (max-height:700px){
+	.contenedorVideosSpoty {
+    left: 3%;
+    bottom: 5vh;
+    
+  }
+  #Saludar{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+  }
+
+}
+
+@media screen and (min-height:700px){
+	.contenedorVideosSpoty {
+    left: 3%;
+    bottom: 10vh;
+    
+  }
+  #Saludar{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+
+}
+
+
+
+/* CArt */
+.watermark{
+  width: 15px;
+  position: absolute;
+  left: 0.5rem;
+  top: 1rem;
+
+}         
+.cardSpoty{
+  --size: 200px;
+  width: var(--size);
+  
+  padding: 5px 10px 10px 10px ;
+  background: #1d1c1c;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 2ms;
+}   
+.cardSpoty:hover{
+  background: #222222;
+}
+.cover{
+  width: 180px;
+    height: 170px;
+    position: relative;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  border-radius: 10%;
+} 
+
+
+.imgSpoty{
+  position: absolute;
+  width: 180px;
+  height: 160px;
+  border-radius:  10px 10px 10px 10px;
+  opacity: 0.3;
+  
+}
+
+
+
+
+.pb-wrapper{
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: 320ms;
+}
+.cardSpoty:hover .pb-wrapper{
+  bottom: 1rem;
+  opacity: 1;
+  
+}
+.play-buttom{
+  width: 40px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  background: green;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.0rem;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.3);
+}
+
+.PrimerCuadro{
+position: absolute;
+height: 20px;
+width: 3%;
+top: 70%;
+left: 0%;
+}
+
+
+.SegundoCuadro{
+position: absolute;
+height: 4.2%;
+width: 100%;
+bottom: 3.3%;
+left: 0;
+border-radius:  0 0 10px 10px;
+}
+.TituloVideoCAC{
+position: absolute;
+color: white;
+font-weight:900 ;
+top: 70%;
+left: 5%;
+}
+
+.invisiblespoty{
+  color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+/* CArt */

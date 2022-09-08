@@ -1,0 +1,271 @@
+.BoxMicro {
+	position: absolute;
+	/* top: 90%;
+    left: 93%; */
+	bottom: 10%;
+
+}
+
+.object {
+	display: flex;
+	flex: 0 1 100%;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.outline {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 8px solid #B5A4A4;
+	animation: BtnMin 3s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	position: absolute;
+}
+
+.button {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #50CDDD;
+	box-shadow: 0px 0px 80px #0084F9;
+	position: absolute;
+	cursor: pointer;
+}
+
+@keyframes BtnMin {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+		border: 65px solid #0B3082;
+	}
+
+	50% {
+		border: solid #A3FFC2;
+		opacity: 0.8;
+	}
+
+	90% {
+		transform: scale(3.2);
+		opacity: 0.2;
+		border: 3px solid #167a6e;
+	}
+
+	100% {
+		transform: scale(3.3);
+		opacity: 0;
+		border: 1px solid #7A89FF;
+	}
+}
+
+#delayed {
+	animation-delay: 1.5s;
+}
+
+#circlein {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #065D54;
+	/* box-shadow: 0px -2px 15px #E0FF94; */
+	box-shadow: 0px -2px 15px #2c2c2c;
+	position: absolute;
+	cursor: pointer;
+}
+
+#circlein svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.mic-icon {
+	height: 30px;
+	position: absolute;
+	margin: 10px;
+}
+
+.BtonCerrarVoice {
+	color: black;
+	padding: 4px 8px;
+	border-radius: 100%;
+}
+
+.centrarAlasMalas {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+/* Intrio */
+
+@-webkit-keyframes EllosFlotan {
+	25% {
+		-webkit-transform: translateY(40px);
+	}
+
+	50%,
+	100% {
+		-webkit-transform: translateY(0);
+	}
+
+	75% {
+		-webkit-transform: translateY(40px);
+	}
+}
+
+
+.BoxYoutubeIntro {
+	position: absolute;
+	bottom: 55%;
+	left: 89%;
+	z-index: 99;
+	animation: EllosFlotan 10s linear infinite;
+}
+
+.BoxVoiceIntro {
+	position: absolute;
+	bottom: 55%;
+	left: 10%;
+	z-index: 99;
+	animation: EllosFlotan 16s linear infinite;
+}
+
+
+#circleinYotubeIntro {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #ff0000;
+	box-shadow: 0px -2px 15px #680909;
+	position: absolute;
+	cursor: pointer;
+}
+
+.buttonYoutube i {
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	cursor: pointer;
+	left: 35%;
+	bottom: 23%;
+
+}
+
+.buttonYoutube {
+	width: 27px;
+	height: 27px;
+	border-radius: 50%;
+	background: #000000;
+	box-shadow: 0px 0px 160px #440202;
+	position: absolute;
+	cursor: pointer;
+}
+
+.outlineYoutube {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 20px solid #ff0000;
+	animation: BtnMinYoutuve 3s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	position: absolute;
+}
+
+@keyframes BtnMinYoutuve {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+		border: 65px solid #ff0000;
+	}
+
+	50% {
+		border: solid #c45656;
+		opacity: 0.8;
+	}
+
+	90% {
+		transform: scale(3.2);
+		opacity: 0.2;
+		border: 5px solid #ee6565;
+	}
+
+	100% {
+		transform: scale(3.3);
+		opacity: 0;
+		border: 3px solid #ff9292;
+	}
+}
+
+@keyframes BtnMinVoice {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+		border: 65px solid #4502ff;
+	}
+
+	50% {
+		border: solid #0c09f3;
+		opacity: 0.8;
+	}
+
+	90% {
+		transform: scale(3.2);
+		opacity: 0.2;
+		border: 5px solid #7280ff;
+	}
+
+	100% {
+		transform: scale(3.3);
+		opacity: 0;
+		border: 3px solid #1c0df1;
+	}
+}
+
+
+
+
+
+#circleinVoiceIntro {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #1302ff;
+	box-shadow: 0px -2px 15px #301aee;
+	position: absolute;
+	cursor: pointer;
+}
+
+.buttonChatIntro i {
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	cursor: pointer;
+	left: 28%;
+	bottom: 23%;
+}
+
+.outlineMiroIntro {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 18px solid #ff0000;
+	animation: BtnMinVoice 3s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	position: absolute;
+}
+
+
+#circlein {
+	border: solid 2px #043a34;
+}

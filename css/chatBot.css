@@ -1,0 +1,232 @@
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+section h1 {
+  color: rgba(255, 255, 255, 0.322);
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+section p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.322);
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.texts p {
+  /* color: black;
+  text-align: left;
+  width: auto;
+  border-radius: 15px;
+  margin-bottom: 9px; */
+  
+  width: auto;
+  border-radius: 10px;
+  margin-bottom: 9px;
+}
+
+
+.Persona{
+  /* float: left;
+  background: rgb(202, 198, 198);
+  
+  
+  position: relative;
+  padding: 12px 90px 7px 40px; */
+  text-align: left;
+  float: left;
+  background: #3b424a;
+  
+  position: relative;
+  padding: 12px 90px 7px 40px;
+  color: white;
+  
+  margin-inline-start: 2%;
+
+}
+  
+
+
+.texts p.replay {   
+  /* text-align: right; 
+  float: right; 
+  background: #d1fca9;
+  
+  padding-bottom: 25px;
+  position: relative;
+  padding:12px 20px 20px 40px; */
+
+    text-align: left;
+    float: right;
+    background: #03665b;
+    padding-bottom: 25px;
+    position: relative;
+    padding: 12px 20px 20px 40px;
+    color: white;
+    margin-inline-end: 2%;
+}
+
+.texts p.replayMuchos {   
+  text-align: right; 
+  float: right; 
+  background: #d1fca9;
+  
+  position: relative;
+  
+}
+
+
+.displayHours{
+  /* font-size: 12px;
+  position: absolute;
+  right: 12%;
+  bottom: 5%;
+  color: rgb(133, 131, 131); */
+
+  font-size: 12px;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    color: rgb(201 196 196);
+}
+
+
+.iconocheck{
+  /* font-size: 12px;
+  position: absolute;
+
+  right: 7%;
+  bottom: 11%;
+  color: rgb(133, 131, 131); */
+
+  font-size: 12px;
+    position: absolute;
+    right: 6%;
+    bottom: 7%;
+    color: rgb(1 185 255);
+}
+.CheckMelo{
+  font-size: 15px;
+  position: absolute;
+  left: 15%;
+  bottom: 5%;
+  color: rgb(133, 131, 131);
+}
+.displayHoursPersona{
+  font-size: 12px;
+  position: absolute;
+  right: 4%;
+  bottom: 5%;
+  color: rgb(133, 131, 131);
+}
+
+.contenedorChat{
+  width: 100%;
+  background: black;
+}
+
+
+div.scroll {
+  margin: 4px, 4px;
+  padding: 4px;
+  width: auto;
+  height: 70vh;
+  
+  /* overflow-x: hidden; */
+  overflow-y: auto;
+  text-align: justify;
+  align-items: center;
+  margin: 0px 5%;
+  /* overflow: hidden; */
+}
+
+.animado{
+  position: relative;
+}
+
+.HeaderChatAda{
+  /* background: #065D54; */
+  background: #27363c;
+  
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.iconoWhats{
+  color: white;
+  font-size: 23px;
+  
+}
+
+.fotoAdaWhats{
+  border: 1px solid black; 
+  border-radius: 100%;
+  padding: 10px 5px;
+
+}
+.ContenedorWhats{
+  position: relative;
+  background: transparent;
+  /* background: url("../img/descargarss.jpg"); */
+  width: 100%;
+  height: 98vh;
+  
+}
+.fondoWhats{
+  position: absolute;
+  background: url("../img/fondos-whatsapp-hd-negro-4k-iphone-android-chat-22.png"); 
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.ColumnBtonsContenedors{
+  /* background: #cbcbcb; */
+  background: #072330;
+  position: relative;
+  width: 100%;
+  height: 98vh;
+}
+
+
+.Pestaña{
+    position: absolute;
+    top: 0;
+    right: -3%;
+    width: 0; 
+    height: 0; 
+    border-left: 30px solid #03665b;
+    border-bottom: 30px solid transparent;
+    border-radius: 0% 10% 40% 0%;
+}
+
+.PestañaPersona{
+  position: absolute;
+  top: 0;
+  left: -4%;
+  
+  width: 0; 
+  height: 0; 
+  border-right: 30px solid #3b424a;
+  border-bottom: 30px solid transparent;
+  border-radius: 10% 0%   0% 40%; 
+}

@@ -1,0 +1,55 @@
+
+.VelozIn {
+ 
+    animation: VelozIn 1s ;
+  
+  }
+  
+  
+  
+  /* Creamos la animación (con keyframes) */
+  
+  @keyframes VelozIn {
+   
+    0% {
+      opacity: 0;
+      transform: translateX(-100vw) skewX(1deg);
+    }
+      
+    60% {
+      opacity: 1;
+      transform: skewX(-20deg);
+      
+    }
+    
+    80% {
+      transform: skewX(15deg);
+    }
+    
+  }
+  
+
+
+
+
+  /* box */
+
+  @keyframes taadaa { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  .box {
+    animation: taadaa 3s ;
+  }
+
+  .boxBoton{
+    animation: taadaa 1s ;
+  }
+  
