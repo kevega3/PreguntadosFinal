@@ -67,7 +67,7 @@ font-weight: bold;">
 
 
         <!-- Videos -->
-        <div class="ContenedorVideosGeneral  box">
+        <div class="ContenedorVideosGeneral   box">
             <div class="row">
 
                 <div class="col-6  ColumnVideosContenedors1  ">
@@ -152,6 +152,8 @@ font-weight: bold;">
     </script>
     <!-- Letras -->
     <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+
 
 
 

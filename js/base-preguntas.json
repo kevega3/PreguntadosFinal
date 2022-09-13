@@ -1,31 +1,33 @@
 [
     {
-        "categoria": "Arte y literatura",
+        
         "pregunta": "¿Quién pintó la mona lisa?",
         "respuesta": "Leonardo da Vinci",
         "incorrecta1": "Picasso",
         "incorrecta2": "Miguel Ángel",
         "incorrecta3": "Monet",
+        "categoria": "Quién pintó la mona lisa",
         "imagen": "../img/_117320379_giocondacerca.jpg",
         "objectFit": "cover"
     },
     {
-        "categoria": "Arte y literatura",
+        
         "pregunta": "Pintor de  \"El jardín de las delicias\"",
         "respuesta": "El Bosco",
         "incorrecta1": "Velásquez",
         "incorrecta2": "Picasso",
         "incorrecta3": "Dalí\r",
+        "categoria": "Pregunta.Quien es el pintor del jardin de las delicias",
         "imagen": "../img/hieronymus-bosch-galle-dpa8x4.jpg",
         "objectFit": "cover"
     },
     {
-        "categoria": "Arte y literatura",
         "pregunta": "significado de  \"El jardín de las delicias\"",
         "respuesta": "Mundo Terrenal",
-        "incorrecta1": "Es Mejor Morir",
-        "incorrecta2": "Dios Es El Camino",
-        "incorrecta3": "Adán Y Eva\r",
+        "incorrecta1": "Adán Y Eva\r",
+        "incorrecta2": "Es Mejor Morir",
+        "incorrecta3": "Dios Es El Camino",
+        "categoria": "Pregunta.Cual es el significado de El jardín de las delicias",
         "imagen": "../img/El_jardín_de_las_Delicias,_de_El_Bosco.jpg",
         "objectFit": "cover"
     }

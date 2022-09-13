@@ -1,19 +1,25 @@
 function Desicion(check, horas, texts, p, text) {
-
+  
+  var HablaADA = new Audio();
+  
   var check1 = check;
   let pestañaChat = document.createElement("span");
   scrollPro();
   if (text.includes("Hola") || text.includes("Buenas tardes") || text.includes("Buenos días") ) {
+    // var HablaADA = new Audio();
+
+
     p = document.createElement("p");
     p.classList.add("replay");
     p.innerText = "hola, como estas 😇";
-
+    HablaADA.src = "../img/songs/Hola Como estas _.mp3"; 
     texts.appendChild(p).appendChild(horas);
     p.appendChild(check);
     p.appendChild(pestañaChat);
     pestañaChat.classList.add("Pestaña");
-
-    responsiveVoice.speak('Hola,como estas', 'Spanish Latin American Female');
+    HablaADA.play();
+    // responsiveVoice.speak('Hola,como estas', 'Spanish Latin American Female');
+    
     BocaADARapido(1800);
   }
   else if (
@@ -366,10 +372,11 @@ else if (text.includes("caca") || text.includes("cuenta de alto costo") || text.
 }
 
   else {
+    
     p = document.createElement("p");
     p.classList.add("replay");
     p.innerText = "Puedes decirmelo de otra forma 😊?";
-
+    HablaADA.src = "../img/songs/Puedes decirlo de ot.mp3"; 
     texts.appendChild(p).appendChild(horas);
     p.appendChild(check);
     p.appendChild(pestañaChat);
@@ -377,7 +384,9 @@ else if (text.includes("caca") || text.includes("cuenta de alto costo") || text.
 
 
     BocaADARapido(2000);
-    responsiveVoice.speak('Puedes decirmelo de otra forma', 'Spanish Latin American Female');
+    HablaADA.play();
+    // responsiveVoice.speak('Puedes decirmelo de otra forma', 'Spanish Latin American Female');
+    
 
   }
   scrollPro();
