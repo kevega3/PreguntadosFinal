@@ -46,7 +46,7 @@ font-weight: bold;">
 
     <div class="contenedorGeneral container-fluid">
         <!-- Intro -->
-        <div class="ContenedorIntro quit box ">
+        <div class="ContenedorIntro  box ">
             <div class="row">
                 <div class="col-3 ColumnaIntroADA  ">
                     <img class="LogoCACIntro" src="../img/LOGO CAC_Colores y Blanco.png" alt="" width="95%">
@@ -67,10 +67,10 @@ font-weight: bold;">
 
 
         <!-- Videos -->
-        <div class="ContenedorVideosGeneral   box">
+        <div class="ContenedorVideosGeneral quit box">
             <div class="row">
 
-                <div class="col-6  ColumnVideosContenedors1  ">
+                <div class="col-6  ColumnVideosContenedors1   ">
                     <?php include("PreguntadosVih.html")?>
                 </div>
 
