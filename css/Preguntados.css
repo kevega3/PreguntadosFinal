@@ -60,24 +60,6 @@ background: white;
 
 
 
-.HeaderPreguntados{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    /* padding: 20px 0px ; */
-    height: 60px;
-
-
-
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#27363c+0,3a3a3a+100 */
-background: rgb(10, 10, 128);
-    
-}
-.HeaderPreguntados h4{
-    color: white;
-    font-weight: bold;
-}
 
 
 

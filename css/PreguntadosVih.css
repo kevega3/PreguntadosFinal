@@ -1,21 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Work+Sans:400,700,900");
+
 
   .contenedorVH {
     position: absolute;
     width: 100%;
     height: 100%;
-
   } 
 
   .encabezado {
     position: relative;
-    background: white;
-    
     width: 100%;
     /* max-width: 600px; */
     padding: 10px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
   }
 
   .categoria {
@@ -34,10 +34,26 @@
     height: 90px;
     justify-content: center;
     align-items: center;
-  
-    -webkit-box-shadow: 0px 0px 15px 0px #000000; 
-  box-shadow: 0px 0px 15px 0px #000000;
+    -webkit-box-shadow: 0px 10px 41px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 41px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 41px 0px rgb(0 0 0 / 75%);
   }
+
+  #ColorEquipo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 2%;
+    right: 4%;
+
+  }
+
+.headerPreguntados h4{
+    color: white;
+    font-weight: bold;
+}
+
 
   .imagen {
     object-fit: cover;
@@ -97,9 +113,8 @@
   
   .puntaje{
     position: absolute;
-    right: 15px;
-    padding:10px;
-    color:black;
+    color:white;
+    padding: 18px;
   }
 
   .contenedorBotonesPregs{
@@ -186,4 +201,16 @@
   display: grid;
   justify-content: center;
   align-items: center;
+}
+
+
+
+
+
+
+.contenedorCarrousel{
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }

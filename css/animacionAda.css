@@ -5,10 +5,34 @@
   
   }
   
+
+  .VelozIn2{
+    animation: VelozIn2 1s ;
+  }
   
   
   /* Creamos la animación (con keyframes) */
-  
+  @keyframes VelozIn2 {
+   
+    0% {
+      opacity: 0;
+      transform: translateY(100vw) skewY(1deg);
+    }
+      
+    60% {
+      opacity: 1;
+      transform: skewY(20deg);
+      
+    }
+    
+    80% {
+      transform: skewY(-15deg);
+    }
+    
+  }
+
+
+
   @keyframes VelozIn {
    
     0% {

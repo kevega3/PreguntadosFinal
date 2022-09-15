@@ -1,17 +1,14 @@
 let check = document.createElement("i");
 let checkIncorrecto = document.createElement("i");
-let triangule  = document.createElement("span");
-let Cuadrado  = document.createElement("span");
-let Circulo  = document.createElement("span");
+let triangule = document.createElement("span");
+let Cuadrado = document.createElement("span");
+let Circulo = document.createElement("span");
 let rombo = document.createElement("span");
 
 
 let preguntas_aleatorias = true;
 let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
-
-
-
 
 // Sonidos melos
 
@@ -23,13 +20,18 @@ soundIncorret.src = "../img/songs/Incorrecto.mp3";
 
 
 
-
-
-window.onload = function () {
+function ActivaPreguntados() {
   base_preguntas = readText("../js/base-preguntas.json");
   interprete_bp = JSON.parse(base_preguntas);
   escogerPreguntaAleatoria();
 };
+
+
+// window.onload = function () {
+//   base_preguntas = readText("../js/base-preguntas.json");
+//   interprete_bp = JSON.parse(base_preguntas);
+//   escogerPreguntaAleatoria();
+// };
 
 let pregunta;
 let AudioPregunt;
@@ -71,6 +73,7 @@ function escogerPreguntaAleatoria() {
 
 
       if (mostrar_pantalla_juego_términado) {
+        
         swal.fire({
           title: "Juego finalizado",
           text:
@@ -97,7 +100,12 @@ function escogerPregunta(n) {
   pregunta = interprete_bp[n];
   AudioPregunta = pregunta.categoria;
 
-  select_id("pregunta").innerHTML = pregunta.pregunta;
+
+  setTimeout(() => {
+    select_id("pregunta").innerHTML = pregunta.pregunta;
+  }, 2000);
+  
+  
   select_id("numero").innerHTML = n;
   let pc = preguntas_correctas;
   if (preguntas_hechas > 1) {
@@ -132,17 +140,17 @@ function desordenarRespuestas(pregunta) {
   ];
   posibles_respuestas.sort(() => Math.random() - 0.5);
 
-  select_id("btn1VH").innerHTML =  posibles_respuestas[0];
-  select_id("btn2VH").innerHTML =  posibles_respuestas[1];
-  select_id("btn3VH").innerHTML =  posibles_respuestas[2];
-  select_id("btn4VH").innerHTML =  posibles_respuestas[3];
+  select_id("btn1VH").innerHTML = posibles_respuestas[0];
+  select_id("btn2VH").innerHTML = posibles_respuestas[1];
+  select_id("btn3VH").innerHTML = posibles_respuestas[2];
+  select_id("btn4VH").innerHTML = posibles_respuestas[3];
 
-  
+
   select_id("btn1VH").appendChild(triangule);
   triangule.classList.add("triangle-up");
   triangule.classList.add("IconoPreguntaVH");
-  
-  
+
+
   select_id("btn2VH").appendChild(Cuadrado);
   Cuadrado.classList.add("IconoPreguntaVH");
   Cuadrado.classList.add("Cuadrado-up");
@@ -151,7 +159,7 @@ function desordenarRespuestas(pregunta) {
   Circulo.classList.add("IconoPreguntaVH");
   Circulo.classList.add("Circulo-up");
 
-  
+
   select_id("btn4VH").appendChild(rombo);
   rombo.classList.add("IconoPreguntaVH");
   rombo.classList.add("rombo");
@@ -159,7 +167,7 @@ function desordenarRespuestas(pregunta) {
 
   responsiveVoice.speak(AudioPregunta + ".A." + posibles_respuestas[0] + ".B." + posibles_respuestas[1] + ".C." + posibles_respuestas[2] + ".D." + posibles_respuestas[3], 'Spanish Latin American Female');
 
-    
+
 }
 
 let suspender_botones = false;
@@ -218,7 +226,6 @@ function oprimir_btn(i) {
   setTimeout(() => {
     reiniciar();
     suspender_botones = false;
-
   }, 2000);
 }
 

@@ -46,7 +46,7 @@ font-weight: bold;">
 
     <div class="contenedorGeneral container-fluid">
         <!-- Intro -->
-        <div class="ContenedorIntro  box ">
+        <div class="ContenedorIntro quit box ">
             <div class="row">
                 <div class="col-3 ColumnaIntroADA  ">
                     <img class="LogoCACIntro" src="../img/LOGO CAC_Colores y Blanco.png" alt="" width="95%">
@@ -67,7 +67,7 @@ font-weight: bold;">
 
 
         <!-- Videos -->
-        <div class="ContenedorVideosGeneral quit box">
+        <div class="ContenedorVideosGeneral  box">
             <div class="row">
 
                 <div class="col-6  ColumnVideosContenedors1   ">
@@ -144,6 +144,8 @@ font-weight: bold;">
     <script src="../js/AnimacionADA.js"></script>
     <script src="../js/Preguntados.js"></script>
 
+    <!-- D3 -->
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 
     <!--Fonazome-->
     <script src="../js/Icons.js"></script>
@@ -155,7 +157,9 @@ font-weight: bold;">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
 
 
-
+    <!-- ruleta ome -->
+    <script src="../js/Ruleta.js"></script>
+    <!-- ruleta ome -->
 
     <!-- reconocimiento de voz -->
     <script src="../js/script.js"></script>
